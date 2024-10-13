@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>What is my browser?</title>
+        <meta name="description" content="What is my browser? What version is my browser? We’ve detected the following details about your browser. This information may help support teams troubleshoot issues you’re experiencing with their website.">
+        <meta name="keywords" content="browser detection, browser details, browser version, internet browser, web browser, what is my browser, what browser am i using, flash version, java version, javascript version">
+        <link rel="stylesheet" href="./static/style/common.css">
+        <link rel="stylesheet" href="./static/style/index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="mod-head">
+                    <div class="inner">
+                        <div class="bd">
+                            <div class="logo">
+                                <h1>
+                                    <a href="/">
+                                        <img src="./static/image/logo.png" width="32" height="32"/>
+                                        <span>Browser</span><span class="is">Is</span><span>.com</span>
+                                    </a>
+                                </h1>
+                            </div>
+                            <menu>
+                                <li class="active"><a href="/">My Browser</a></li>
+                                <li><a href="/fingerprint.html">Fingerprint</a></li>
+                                <li><a href="/useragent.html">Useragent</a></li>
+                            </menu>
+                            <div class="buttons">
+                                <a class="btn" href="https://github.com/mumuy/browser/" rel="nofollow" target="_blank" title="Github">
+                                    <svg fill="#ffffff" aria-hidden="true" class="octicon" height="20" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
+                                    <span>Github</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <section class="mod-detail">
+                    <div class="inner">
+                        <div class="bd">
+                            <p class="subtitle">Your web browser looks like:</p>
+                            <div class="detail">
+                                <span class="browser"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="inner">
+                    <section class="mod-panel">
+                        <div class="hd">
+                            <div class="useragent"></div>
+                        </div>
+                        <div class="bd">
+                            <div class="panel-left">
+                                <div class="box">
+                                    <div class="c-hd">Your browser <span class="text-gray">information</span></div>
+                                    <div class="c-bd">
+                                        <div id="browser-details">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="th"><span>Browser</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Version</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Engine</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>is Robot</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>is Webview</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Cookie Enabled</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="c-hd">User <span class="text-gray">information</span></div>
+                                    <div class="c-bd">
+                                        <div id="user-details">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="th"><span>IP address</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Language</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Timezone</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Battery</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Is Charging</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>is Online</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Font Family</span></td>
+                                                        <td><div class="scroll"></div></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-right">
+                                <div class="box">
+                                    <div class="c-hd">Your system <span class="text-gray">information</span></div>
+                                    <div class="c-bd">
+                                        <div id="system-details">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="th"><span>Operating System</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Platform</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Architecture</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="c-hd">Screen <span class="text-gray">information</span></div>
+                                    <div class="c-bd">
+                                        <div id="screen-details">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="th"><span>Screen Size</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Client size</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Screen FPS</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Screen ColorDepth</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Is Touch</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Is Retina</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="c-hd">Device <span class="text-gray">information</span></div>
+                                    <div class="c-bd">
+                                        <div id="device-details">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="th"><span>Device Type</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>Device Memory</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>GPU Vendor</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="th"><span>GPU Model</span></td>
+                                                        <td><span>-</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mod-intro">
+                        <div class="bd">
+                            <p>A web browser is a software application that allows users to access and view websites on the internet. It is the primary means of accessing and interacting with online content, such as websites, emails, and social media platforms. A web browser acts as a bridge between the user's device and the internet, rendering web pages, executing JavaScript code, and handling user input to enable navigation, searching, and interaction with online content. Popular web browsers include Google Chrome,Mozilla Firefox, Safari, and Microsoft Edge.</p>
+                            <p>This website <strong>BrowserIs.com</strong> tells you what browser and version you have, the type of device you are using, which operating system you're using, and your settings for important things such as JavaScript and Cookies.</p>
+                            <h3>Why is my browser information important?</h3>
+                            <p>Your browser's information is important because it can be used to identify you and track your online activities, allowing advertisers, websites, and other third-party entities to tailor their content and marketing efforts to you. This information can also be used to improve your browsing experience, such as remembering your login credentials or settings, and to ensure security and integrity of online transactions. Additionally, your browser information can be used by law enforcement agencies to investigate crimes and track suspicious activity.</p>
+                            <h3>What features should I look for in a browser?</h3>
+                            <p>When choosing a browser look at items such as its speed (how fast pages load), security (how good is its anti-malware protection), compatibility (does it support your operating system) and customization options (what type of user interface does it offer). Other factors include plugins/extensions (what kind does it provide and how easy are they to install) as well as mobile support (does it work with mobile devices).</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="mod-foot">
+                    <div class="inner">
+                        <div class="bd">
+                            <p>
+                                <span>&copy; 2024</span>
+                                <a href="/">browseris.com</a>
+                                <span>. All rights reserved</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="https://passer-by.com/browser/dist/browser.min.js"></script>
+        <script type="text/javascript" src="./static/script/index.js"></script>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?e3f8739b61d530643056e679900adf0e";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+        </script> 
+    </body>
+</html>

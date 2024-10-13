@@ -1,0 +1,163 @@
+.mod-detail{
+    margin-bottom: 25px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #1f8dd6 0, #1f8bd3 100%);
+}
+.mod-detail .bd{
+    height: 120px;
+    padding: 60px 0;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+}
+.mod-detail h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.mod-detail p.subtitle{
+    font-size: 18px;
+    color: #ffffffdb;
+}
+.mod-detail .detail{
+    margin-top: 10px;
+    text-align: center;
+}
+.mod-detail .fingerprint {
+    display: inline-block;
+    min-width: 480px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+}
+.mod-detail .fingerprint p.name{
+    line-height: 16px;
+    text-align: left;
+    font-size: 12px;
+    color: rgba(255,255,255,0.8);
+}
+.mod-detail .fingerprint p.value{
+    margin-bottom: 8px;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffddac;
+}
+
+.mod-intro{
+    padding: 20px;
+    background: #f9fafb;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+}
+.mod-intro .hd h3{
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mod-intro .bd{
+    line-height: 24px;
+}
+.mod-intro .bd h3{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mod-intro .bd p{
+    margin-bottom: 16px;
+    color: #666;
+}
+.mod-intro .bd strong{
+    position: relative;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #444;
+}
+.mod-intro .bd strong::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content:'';
+    width: 100%;
+    height: 6px;
+    background: #1f8dd633;
+    border-radius: 2px;
+}
+.mod-intro .bd p:last-child{
+    margin-bottom: 0;
+}
+.mod-intro .bd .picture{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.mod-intro .bd .picture img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #f0f0f0;
+}
+.mod-intro .bd .picture p{
+    text-align: center;
+    font-style: italic;
+}
+.mod-intro .bd .table-inner{
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+.mod-intro .bd table{
+    width: 100%;
+    background: #fff;
+}
+.mod-intro .bd td{
+    padding: 10px 15px;
+    border: 1px solid #e3e8eb;
+    line-height: 20px;
+}
+.mod-intro .bd td.th{
+    width: 25%;
+    background: #f6f8fa;
+}
+
+@media screen and (max-width: 800px) {
+    .mod-detail .bd{
+        height: 125px;
+        padding: 40px 0;
+        line-height: 20px;
+    }
+    .mod-detail h1{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .mod-detail .fingerprint{
+        min-width: 0;
+        padding: 5px 15px;
+    }
+    .mod-detail .fingerprint p.value{
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    .mod-intro{
+        padding: 15px;
+    }
+    .mod-intro .hd h3{
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    .mod-intro .bd{
+        line-height: 20px;
+    }
+    .mod-intro .bd h3{
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .mod-intro .bd p{
+        margin-bottom: 12px;
+    }
+    .mod-intro .bd table{
+        width: auto;
+        white-space: nowrap;
+    }
+    .mod-intro .bd td{
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,244 @@
+.mod-detail{
+    margin-bottom: 25px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #1f8dd6 0, #1f8bd3 100%);
+}
+.mod-detail .bd{
+    height: 120px;
+    padding: 60px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.mod-detail p.subtitle{
+    line-height: 36px;
+    font-size: 24px;
+    color: #ffffffdb;
+}
+.mod-detail .detail{
+    margin-top: 10px;
+    text-align: center;
+}
+.mod-detail .browser{
+    display: inline-block;
+    min-width: 240px;
+    height: 60px;
+    background: rgba(0,0,0,0.05);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    line-height: 58px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.mod-detail .browser a,.mod-detail .browser span{
+    position: relative;
+    display: block;
+    padding: 0 25px;
+    color: #fff;
+}
+.mod-detail .browser a::after{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    content: '';
+    width: 12px;
+    height: 12px;
+    margin-top: -4px;
+    border-right: 1px solid rgba(255,255,255,0.6);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    transform: rotate(-45deg);
+}
+.mod-detail .browser img,.mod-detail .browser strong{
+    vertical-align: middle;
+}
+
+.mod-panel{
+    margin-bottom: 25px;
+}
+.mod-panel .hd{
+    margin-bottom: 20px;
+}
+.mod-panel .useragent{
+    padding: 10px 20px;
+    background: #f6f8fa;
+    border-radius: 4px;
+    line-height: 24px;
+}
+.mod-panel .useragent strong{
+    margin-right: 5px;
+    font-weight: bold;
+}
+.mod-panel .bd{
+    column-count: 2;
+    column-gap: 20px;
+}
+.mod-panel .panel-left,.mod-panel .panel-right{
+    break-inside: avoid;
+}
+.mod-panel .box{
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #e3e8eb;
+    border-radius: 6px;   
+}
+.mod-panel .box .c-hd{
+    padding: 0 10px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mod-panel .box .c-bd{
+    padding: 15px 0 10px;
+}
+.mod-panel table{
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 16px;
+    color: #888;
+}
+.mod-panel table span,.mod-panel table strong{
+    vertical-align: middle;
+}
+.mod-panel tr:nth-child(2n+1){
+    background: #f6f8fa;
+}
+.mod-panel th,.mod-panel td{
+    padding: 10px 15px;
+    line-height: 24px;
+    vertical-align: top;
+}
+.mod-panel td.th{
+    width: 32%;
+    white-space: nowrap;
+    color: #333;
+}
+.mod-panel td img{
+    margin-right: 5px;
+}
+.mod-panel td .scroll{
+    height: 200px;
+    padding: 6px 12px;
+    background: rgba(0,0,0,0.01);
+    border: medium none;
+    border-radius: 6px;
+    scrollbar-gutter: stable;
+    overflow-y: overlay;
+}
+.mod-panel .text-green{
+    color: #4bae4f;
+}
+.mod-panel .text-red{
+    color: #f56954;
+}
+.mod-panel .text-gray{
+    color: #989ca3;
+}
+
+.mod-intro{
+    padding: 20px;
+    background: #f9fafb;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+}
+.mod-intro .bd{
+    line-height: 24px;
+}
+.mod-intro .bd h3{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mod-intro .bd p{
+    margin-bottom: 16px;
+    color: #666;
+}
+.mod-intro .bd strong{
+    position: relative;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #444;
+}
+.mod-intro .bd strong::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content:'';
+    width: 100%;
+    height: 6px;
+    background: #1f8dd633;
+    border-radius: 2px;
+}
+.mod-intro .bd p:last-child{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .mod-detail .bd{
+        height: 100px;
+        padding: 40px 0;
+        line-height: 30px;
+    }
+    .mod-detail p.subtitle{
+        margin: 0;
+        font-size: 18px;
+    }
+    .mod-detail .browser{
+        min-width: 180px;
+        height: 48px;
+        line-height: 46px;
+        font-size: 18px;
+    }
+    .mod-detail .browser a::after{
+        width: 8px;
+        height: 8px;
+    }
+    .mod-detail .browser img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .mod-panel .useragent{
+        line-height: 20px;
+    }
+    .mod-panel .bd{
+        column-count: 1;
+    }
+    .mod-panel .box{
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .mod-panel .box .c-hd{
+        line-height: 32px;
+        font-size: 16px;
+    }
+    .mod-panel table{
+        font-size: 14px;
+    }
+    .mod-panel th, .mod-panel td{
+        padding: 5px 10px;
+    }
+
+    .mod-intro{
+        padding: 15px;
+    }
+    .mod-intro .bd{
+        line-height: 20px;
+    }
+    .mod-intro .bd h3{
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .mod-intro .bd p{
+        margin-bottom: 12px;
+    }
+    .mod-intro .bd table{
+        width: auto;
+        white-space: nowrap;
+    }
+    .mod-intro .bd td{
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,241 @@
+.mod-detail{
+    margin-bottom: 25px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #1f8dd6 0, #1f8bd3 100%);
+}
+.mod-detail .bd{
+    height: 120px;
+    padding: 60px 0;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+}
+.mod-detail h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.mod-detail p.subtitle{
+    font-size: 18px;
+    color: #ffffffdb;
+}
+.mod-detail .detail{
+    margin-top: 10px;
+    text-align: center;
+}
+.mod-detail .useragent {
+    display: inline-block;
+    min-width: 480px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    line-height: 24px;
+    color: rgba(255,255,255,0.8);
+}
+
+.mod-panel{
+    margin-bottom: 20px;
+}
+.mod-panel .hd{
+    padding: 0 10px;
+    line-height: 40px;
+}
+.mod-panel .hd .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mod-panel .bd .search{
+    display: flex;
+}
+.mod-panel .bd input[type="search"]{
+    flex: 1;
+    min-width: 0;
+    padding: 10px 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    line-height: 20px;
+    vertical-align: middle;
+    outline: none;
+}
+.mod-panel .bd button{
+    width: 100px;
+    height: 40px;
+    margin: 0 10px;
+    background: #21d196;
+    border: medium none;
+    border-radius: 6px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #fff;
+}
+.mod-panel .bd .result{
+    min-height: 80px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.mod-panel .bd .table-inner{
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+.mod-panel .bd table{
+    width: 100%;
+    background: #fff;
+}
+.mod-panel .bd thead{
+    background: #e3e8eb;
+}
+.mod-panel .bd th{
+    padding: 5px 15px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.mod-panel .bd td{
+    padding: 10px 15px;
+    border: 1px solid #e3e8eb;
+    line-height: 20px;
+}
+.mod-panel .text-gray{
+    color: #999;
+}
+
+.mod-intro{
+    padding: 20px;
+    background: #f9fafb;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+}
+.mod-intro .hd h3{
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mod-intro .bd{
+    line-height: 24px;
+}
+.mod-intro .bd h3{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mod-intro .bd p{
+    margin-bottom: 16px;
+    color: #666;
+}
+.mod-intro .bd strong{
+    position: relative;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #444;
+}
+.mod-intro .bd strong::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content:'';
+    width: 100%;
+    height: 6px;
+    background: #1f8dd633;
+    border-radius: 2px;
+}
+.mod-intro .bd p:last-child{
+    margin-bottom: 0;
+}
+.mod-intro .bd .picture{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.mod-intro .bd .picture img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #f0f0f0;
+}
+.mod-intro .bd .picture p{
+    text-align: center;
+    font-style: italic;
+}
+.mod-intro .bd .table-inner{
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+.mod-intro .bd table{
+    width: 100%;
+    background: #fff;
+}
+.mod-intro .bd thead{
+    background: #e3e8eb;
+}
+.mod-intro .bd th{
+    padding: 5px 15px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.mod-intro .bd td{
+    padding: 10px 15px;
+    border: 1px solid #e3e8eb;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .mod-detail .bd{
+        height: 125px;
+        padding: 40px 0;
+        line-height: 20px;
+    }
+    .mod-detail h1{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .mod-detail .useragent{
+        min-width: 0;
+        padding: 5px 15px;
+        line-height: 20px;
+    }
+
+    .mod-panel .bd .search{
+        flex-direction: column;
+    }
+    .mod-panel .bd button{
+        width: auto;
+        height: 36px;
+        margin: 5px 0;;
+    }
+    .mod-panel .bd input[type="search"]{
+        padding: 8px 12px;
+    }
+    .mod-panel .bd table{
+        width: auto;
+        word-break: break-all;
+    }
+    .mod-panel .bd th{
+        white-space: nowrap;
+    }
+    .mod-panel .bd td{
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .mod-intro{
+        padding: 15px;
+    }
+    .mod-intro .hd h3{
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    .mod-intro .bd{
+        line-height: 20px;
+    }
+    .mod-intro .bd h3{
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .mod-intro .bd p{
+        margin-bottom: 12px;
+    }
+    .mod-intro .bd table{
+        width: auto;
+        white-space: nowrap;
+    }
+    .mod-intro .bd td{
+        padding: 5px 10px;
+    }
+}
