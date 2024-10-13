@@ -4,7 +4,7 @@
     background: linear-gradient(to right, #1f8dd6 0, #1f8bd3 100%);
 }
 .mod-detail .bd{
-    height: 120px;
+    min-height: 120px;
     padding: 60px 0;
     margin-bottom: 10px;
     text-align: center;
@@ -177,7 +177,7 @@
 
 @media screen and (max-width: 800px) {
     .mod-detail .bd{
-        height: 100px;
+        min-height: 125px;
         padding: 40px 0;
         line-height: 30px;
     }
