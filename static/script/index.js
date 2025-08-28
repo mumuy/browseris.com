@@ -172,11 +172,11 @@ let formatPanel = function(info){
             </tr>
             <tr>
                 <td class="th"><span>Is Webview</span></td>
-                <td><span>${info.isRobot?'<span class="text-green">✔</span>':'<span class="text-red">✘</span>'}</span></td>
+                <td><span>${info.isWebview?'<span class="text-green">✔</span>':'<span class="text-red">✘</span>'}</span></td>
             </tr>
             <tr>
                 <td class="th"><span>Cookie Enabled</span></td>
-                <td><span>${info.isRobot?'<span class="text-green">✔</span>':'<span class="text-red">✘</span>'}</span></td>
+                <td><span>${info.cookieEnabled?'<span class="text-green">✔</span>':'<span class="text-red">✘</span>'}</span></td>
             </tr>
             <tr>
                 <td class="th"><span>Support WebGL</span></td>
