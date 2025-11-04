@@ -1,54 +1,74 @@
-header{
-    margin-bottom: 0;
+.mod-panel{
+    margin-bottom: 20px;
 }
-
-.mod-detail{
-    margin-bottom: 25px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to right, #1f8dd6 0, #1f8bd3 100%);
+.mod-panel .hd{
+    padding: 0 10px;
+    line-height: 40px;
 }
-.mod-detail .bd{
-    min-height: 120px;
-    padding: 60px 0;
-    line-height: 36px;
-    text-align: center;
-    color: #fff;
-}
-.mod-detail h1{
-    font-size: 28px;
-    font-weight: bold;
-}
-.mod-detail p.subtitle{
-    font-size: 18px;
-    color: #ffffffdb;
-}
-.mod-detail .detail{
-    margin-top: 10px;
-    text-align: center;
-}
-.mod-detail .fingerprint {
-    display: inline-block;
-    min-width: 480px;
-    padding: 10px 20px;
-    background: rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 6px;
-}
-.mod-detail .fingerprint p.name{
-    line-height: 16px;
-    text-align: left;
-    font-size: 12px;
-    color: rgba(255,255,255,0.8);
-}
-.mod-detail .fingerprint p.value{
-    margin-bottom: 8px;
-    line-height: 20px;
+.mod-panel .hd .title{
     font-size: 20px;
     font-weight: bold;
-    color: #ffddac;
+}
+.mod-panel .bd h3{
+    position: relative;
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mod-panel .bd h3::before{
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    content: '';
+    width: 5px;
+    height: 20px;
+    margin-top: -10px;
+    background: #1f8dd6;
+    border-radius: 3px;
+}
+.mod-panel .bd .table-outer{
+    margin-bottom: 20px;
+}
+.mod-panel .bd table{
+    width: 100%;
+    table-layout: fixed;
+    background: #fff;
+}
+.mod-panel .bd thead{
+    position: sticky;
+    top: 0;
+    background: #f6f8fa;
+}
+.mod-panel .bd thead tr{
+    border-bottom: 1px solid #e3e8eb;
+}
+.mod-panel .bd th{
+    padding: 5px 15px;
+    border: 1px solid #e3e8eb;
+    line-height: 24px;
+    font-weight: bold;
+}
+.mod-panel .bd td{
+    padding: 10px 15px;
+    border: 1px solid #e3e8eb;
+    line-height: 20px;
+}
+.mod-panel .text-green{
+    color: #4bae4f;
+}
+.mod-panel .text-red{
+    color: #f56954;
+}
+.mod-panel .text-orange{
+    color: #fc9000;
+}
+.mod-panel .text-gray{
+    color: #989ca3;
 }
 
 .mod-intro{
+    margin-bottom: 20px;
     padding: 20px;
     background: #f9fafb;
     border: 1px solid #e8e8e8;
@@ -111,33 +131,45 @@ header{
     width: 100%;
     background: #fff;
 }
+.mod-intro .bd thead{
+    background: #e3e8eb;
+}
+.mod-intro .bd th{
+    padding: 5px 15px;
+    line-height: 24px;
+    font-weight: bold;
+}
 .mod-intro .bd td{
     padding: 10px 15px;
     border: 1px solid #e3e8eb;
     line-height: 20px;
 }
-.mod-intro .bd td.th{
-    width: 25%;
-    background: #f6f8fa;
-}
 
 @media screen and (max-width: 800px) {
-    .mod-detail .bd{
-        min-height: 125px;
-        padding: 40px 0;
-        line-height: 20px;
+    .mod-panel .bd .search{
+        flex-direction: column;
     }
-    .mod-detail h1{
-        line-height: 30px;
-        font-size: 20px;
+    .mod-panel .bd button{
+        width: auto;
+        height: 36px;
+        margin: 5px 0;;
     }
-    .mod-detail .fingerprint{
-        min-width: 0;
-        padding: 5px 15px;
+    .mod-panel .bd input[type="search"]{
+        padding: 8px 12px;
     }
-    .mod-detail .fingerprint p.value{
-        margin-bottom: 0;
-        font-size: 14px;
+    .mod-panel .bd .table-inner{
+        overflow-x: auto;
+    }
+    .mod-panel .bd table{
+        width: auto;
+        word-break: break-all;
+    }
+    .mod-panel .bd th{
+        white-space: nowrap;
+    }
+    .mod-panel .bd td{
+        width: auto;
+        padding: 5px 10px;
     }
 
     .mod-intro{

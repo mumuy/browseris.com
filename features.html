@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>Features Detection</title>
+        <meta name="description" content="Get your users agent string, web browser, opera system, device information and more... Useragent is a small piece of data that is sent by your web browser when accessing a website or application.">
+        <meta name="keywords" content="browser useragent,my useragent,user-agent">
+        <link rel="stylesheet" href="./static/style/common.css">
+        <link rel="stylesheet" href="./static/style/features.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="mod-head">
+                    <div class="inner">
+                        <div class="bd">
+                            <div class="logo">
+                                <h1>
+                                    <a href="/">
+                                        <img src="./static/image/logo.png" width="32" height="32"/>
+                                        <span>Browser</span><span class="is">Is</span><span>.com</span>
+                                    </a>
+                                </h1>
+                            </div>
+                            <menu>
+                                <li><a href="/">My Browser</a></li>
+                                <li><a href="/fingerprint.html">Fingerprint</a></li>
+                                <li><a href="/useragent.html">UserAgent</a></li>
+                                <li class="active"><a href="/features.html">Features</a></li>
+                            </menu>
+                            <div class="buttons">
+                                <a class="btn" href="https://github.com/mumuy/browser/" rel="nofollow" target="_blank" title="Github">
+                                    <svg fill="#ffffff" aria-hidden="true" class="octicon" height="20" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
+                                    <span>Github</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="inner">
+                    <section class="mod-intro">
+                        <div class="hd">
+                            <h3 class="title">Features Detection</h3>
+                        </div>
+                        <div class="bd">
+                            <p>The Web Browser's Features Detection Tool has many web browser feature tests that may impact your online identity if you decide to enable or disable them in your browser settings.</p>
+                            <p>The Features Detection is a powerful, user-friendly tool designed to give you deep insights into your web browser’s technical capabilities. Whether you’re a developer testing cross-browser compatibility, a privacy enthusiast auditing online footprints, or simply curious about how your browser interacts with the web, this tool delivers comprehensive, actionable data in seconds.</p>
+                        </div>
+                    </section>
+                    <section class="mod-panel">
+                        <div class="bd">
+                            <div class="table-outer">
+                                <h3>HTML5 Features Detection</h3>
+                                <div class="table-inner">
+                                    <table data-type="HTML5">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature Description</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="row"><td>History API</td><td class="history"></td></tr>
+                                            <tr class="row"><td>HTML5 Audio Element</td><td class="audio"></td></tr>
+                                            <tr class="row"><td>Audio Loop Attribute</td><td class="audioloop"></td></tr>
+                                            <tr class="row"><td>HTML5 Audio ogg vorbis</td><td class="audio_ogg"></td></tr>
+                                            <tr class="row"><td>HTML5 Audio mp3</td><td class="audio_mp3"></td></tr>
+                                            <tr class="row"><td>HTML5 Audio wav</td><td class="audio_wav"></td></tr>
+                                            <tr class="row"><td>HTML5 Audio m4a/aac</td><td class="audio_m4a"></td></tr>
+                                            <tr class="row"><td>HTML5 Audio opus</td><td class="audio_opus"></td></tr>
+                                            <tr class="row"><td>Web Audio API</td><td class="webaudio"></td></tr>
+                                            <tr class="row"><td>Speech Recognition API</td><td class="speechrecognition"></td></tr>
+                                            <tr class="row"><td>Speech Synthesis API</td><td class="speechsynthesis"></td></tr>
+                                            <tr class="row"><td>HTML5 Video</td><td class="video"></td></tr>
+                                            <tr class="row"><td>HTML5 Video ogg</td><td class="video_ogg"></td></tr>
+                                            <tr class="row"><td>HTML5 Video webm</td><td class="video_webm"></td></tr>
+                                            <tr class="row"><td>HTML5 Video h264</td><td class="video_h264"></td></tr>
+                                            <tr class="row"><td>HTML5 Video vp9</td><td class="video_vp9"></td></tr>
+                                            <tr class="row"><td>HTML5 Video hls</td><td class="video_hls"></td></tr>
+                                            <tr class="row"><td>HTML5 Video crossOrigin</td><td class="videocrossorigin"></td></tr>
+                                            <tr class="row"><td>HTML5 Video Loop Attribute</td><td class="videoloop"></td></tr>
+                                            <tr class="row"><td>HTML5 Video Preload Attribute</td><td class="videopreload"></td></tr>
+                                            <tr class="row"><td>Input Attribute autocomplete</td><td class="input_autocomplete"></td></tr>
+                                            <tr class="row"><td>Input Attribute autofocus</td><td class="input_autofocus"></td></tr>
+                                            <tr class="row"><td>Input Attribute list</td><td class="input_list"></td></tr>
+                                            <tr class="row"><td>Input Attribute max</td><td class="input_max"></td></tr>
+                                            <tr class="row"><td>Input Attribute min</td><td class="input_min"></td></tr>
+                                            <tr class="row"><td>Input Attribute multiple</td><td class="input_multiple"></td></tr>
+                                            <tr class="row"><td>Input Attribute pattern</td><td class="input_pattern"></td></tr>
+                                            <tr class="row"><td>Input Attribute placeholder</td><td class="input_placeholder"></td></tr>
+                                            <tr class="row"><td>Input Attribute required</td><td class="input_required"></td></tr>
+                                            <tr class="row"><td>Input Attribute step</td><td class="input_step"></td></tr>
+                                            <tr class="row"><td>input[form] Attribute</td><td class="formattribute"></td></tr>
+                                            <tr class="row"><td>input[capture] Attribute</td><td class="capture"></td></tr>
+                                            <tr class="row"><td>input[file] Attribute</td><td class="fileinput"></td></tr>
+                                            <tr class="row"><td>input[directory] Attribute</td><td class="fileinputdirectory"></td></tr>
+                                            <tr class="row"><td>input formaction</td><td class="inputformaction"></td></tr>
+                                            <tr class="row"><td>input formenctype</td><td class="inputformenctype"></td></tr>
+                                            <tr class="row"><td>input formmethod</td><td class="inputformmethod"></td></tr>
+                                            <tr class="row"><td>input formnovalidate</td><td class="inputformnovalidate"></td></tr>
+                                            <tr class="row"><td>input formtarget</td><td class="inputformtarget"></td></tr>
+                                            <tr class="row"><td>input[search] search event</td><td class="inputsearchevent"></td></tr>
+                                            <tr class="row"><td>Form Validation</td><td class="formvalidation"></td></tr>
+                                            <tr class="row"><td>Form Input Color (type=color)</td><td class="inputtypes_color"></td></tr>
+                                            <tr class="row"><td>Form Input Date (type=date)</td><td class="inputtypes_date"></td></tr>
+                                            <tr class="row"><td>Form Input Local Date and Time (type=datetime-local)</td><td class="inputtypes_datetime-local"></td></tr>
+                                            <tr class="row"><td>Form Input Time (type=time)</td><td class="inputtypes_time"></td></tr>
+                                            <tr class="row"><td>Form Input Week (type=week)</td><td class="inputtypes_week"></td></tr>
+                                            <tr class="row"><td>Form Input Month (type=month)</td><td class="inputtypes_month"></td></tr>
+                                            <tr class="row"><td>Form Input Number (type=number)</td><td class="inputtypes_number"></td></tr>
+                                            <tr class="row"><td>Form Input Range (type=range)</td><td class="inputtypes_range"></td></tr>
+                                            <tr class="row"><td>Form Input Search (type=search)</td><td class="inputtypes_search"></td></tr>
+                                            <tr class="row"><td>Form Input E-mail (type=email)</td><td class="inputtypes_email"></td></tr>
+                                            <tr class="row"><td>Form Input Telephone (type=tel)</td><td class="inputtypes_tel"></td></tr>
+                                            <tr class="row"><td>Form Input URL (type=url)</td><td class="inputtypes_url"></td></tr>
+                                            <tr class="row"><td>postMessage</td><td class="postmessage"></td></tr>
+                                            <tr class="row"><td>postMessage Structured Clones</td><td class="postmessage_structuredclones"></td></tr>
+                                            <tr class="row"><td>Web Workers</td><td class="webworkers"></td></tr>
+                                            <tr class="row"><td>Worker Type Options</td><td class="workertypeoption"></td></tr>
+                                            <tr class="row"><td>Shared Web Workers</td><td class="sharedworkers"></td></tr>
+                                            <tr class="row"><td>DOM Element.classList</td><td class="classlist"></td></tr>
+                                            <tr class="row"><td>dataset API</td><td class="dataset"></td></tr>
+                                            <tr class="row"><td>Document Fragment</td><td class="documentfragment"></td></tr>
+                                            <tr class="row"><td>[hidden] Attribute</td><td class="hidden"></td></tr>
+                                            <tr class="row"><td>Intersection Observer API</td><td class="intersectionobserver"></td></tr>
+                                            <tr class="row"><td>Microdata DOM API</td><td class="microdata"></td></tr>
+                                            <tr class="row"><td>DOM4 MutationObserver</td><td class="mutationobserver"></td></tr>
+                                            <tr class="row"><td>Passive event listeners</td><td class="passiveeventlisteners"></td></tr>
+                                            <tr class="row"><td>Shadow DOM API</td><td class="shadowroot"></td></tr>
+                                            <tr class="row"><td>Shadow DOM API (Legacy)</td><td class="shadowrootlegacy"></td></tr>
+                                            <tr class="row"><td>bdi Element</td><td class="bdi"></td></tr>
+                                            <tr class="row"><td>details Element</td><td class="details"></td></tr>
+                                            <tr class="row"><td>output Element</td><td class="outputelem"></td></tr>
+                                            <tr class="row"><td>picture Element</td><td class="picture"></td></tr>
+                                            <tr class="row"><td>progress Element</td><td class="progressbar"></td></tr>
+                                            <tr class="row"><td>meter Element</td><td class="meter"></td></tr>
+                                            <tr class="row"><td>ruby, rp, rt Elements</td><td class="ruby"></td></tr>
+                                            <tr class="row"><td>template Element</td><td class="template"></td></tr>
+                                            <tr class="row"><td>time Element</td><td class="time"></td></tr>
+                                            <tr class="row"><td>track Element</td><td class="track"></td></tr>
+                                            <tr class="row"><td>Text track API</td><td class="texttrackapi"></td></tr>
+                                            <tr class="row"><td>Unknown Elements</td><td class="unknownelements"></td></tr>
+                                            <tr class="row"><td>textarea maxlength</td><td class="textareamaxlength"></td></tr>
+                                            <tr class="row"><td>QuerySelector</td><td class="queryselector"></td></tr>
+                                            <tr class="row"><td>matchMedia</td><td class="matchmedia"></td></tr>
+                                            <tr class="row"><td>PushManager</td><td class="pushmanager"></td></tr>
+                                            <tr class="row"><td>ResizeObserver</td><td class="resizeobserver"></td></tr>
+                                            <tr class="row"><td>HTML Imports</td><td class="htmlimports"></td></tr>
+                                            <tr class="row"><td>Web Animations API</td><td class="webanimations"></td></tr>
+                                            <tr class="row"><td>Vibration API</td><td class="vibrate"></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="table-outer">
+                                <h3>CSS Features Detection</h3>
+                                <div class="table-inner">
+                                    <table data-type="CSS">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature Description</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="row"><td>CSS all property</td><td class="cssall"></td></tr>
+                                            <tr class="row"><td>CSS Animations</td><td class="cssanimations"></td></tr>
+                                            <tr class="row"><td>CSS Appearance</td><td class="appearance"></td></tr>
+                                            <tr class="row"><td>CSS Backdrop Filter</td><td class="backdropfilter"></td></tr>
+                                            <tr class="row"><td>CSS Background Blend Mode</td><td class="backgroundblendmode"></td></tr>
+                                            <tr class="row"><td>CSS Background Clip Text</td><td class="backgroundcliptext"></td></tr>
+                                            <tr class="row"><td>CSS background-position Shorthand</td><td class="bgpositionshorthand"></td></tr>
+                                            <tr class="row"><td>CSS background-position-x/y</td><td class="bgpositionxy"></td></tr>
+                                            <tr class="row"><td>CSS background-repeat: round</td><td class="bgrepeatround"></td></tr>
+                                            <tr class="row"><td>CSS background-repeat: space</td><td class="bgrepeatspace"></td></tr>
+                                            <tr class="row"><td>CSS background-size</td><td class="backgroundsize"></td></tr>
+                                            <tr class="row"><td>CSS background-size: cover</td><td class="bgsizecover"></td></tr>
+                                            <tr class="row"><td>CSS border-image</td><td class="borderimage"></td></tr>
+                                            <tr class="row"><td>CSS border-radius</td><td class="borderradius"></td></tr>
+                                            <tr class="row"><td>CSS box-decoration-break</td><td class="boxdecorationbreak"></td></tr>
+                                            <tr class="row"><td>CSS box-shadow</td><td class="boxshadow"></td></tr>
+                                            <tr class="row"><td>CSS box-sizing</td><td class="boxsizing"></td></tr>
+                                            <tr class="row"><td>CSS calc</td><td class="csscalc"></td></tr>
+                                            <tr class="row"><td>CSS :checked pseudo-selector</td><td class="checked"></td></tr>
+                                            <tr class="row"><td>CSS Font ch Units</td><td class="csschunit"></td></tr>
+                                            <tr class="row"><td>CSS Columns</td><td class="csscolumns"></td></tr>
+                                            <tr class="row"><td>CSS column-width</td><td class="csscolumns_width"></td></tr>
+                                            <tr class="row"><td>CSS column-span</td><td class="csscolumns_span"></td></tr>
+                                            <tr class="row"><td>CSS column-fill</td><td class="csscolumns_fill"></td></tr>
+                                            <tr class="row"><td>CSS column-gap</td><td class="csscolumns_gap"></td></tr>
+                                            <tr class="row"><td>CSS column-rule</td><td class="csscolumns_rule"></td></tr>
+                                            <tr class="row"><td>CSS column-rule-color</td><td class="csscolumns_rulecolor"></td></tr>
+                                            <tr class="row"><td>CSS column-rule-style</td><td class="csscolumns_rulestyle"></td></tr>
+                                            <tr class="row"><td>CSS column-rule-width</td><td class="csscolumns_rulewidth"></td></tr>
+                                            <tr class="row"><td>CSS Grid (new)</td><td class="cssgrid"></td></tr>
+                                            <tr class="row"><td>CSS Grid (legacy)</td><td class="cssgridlegacy"></td></tr>
+                                            <tr class="row"><td>CSS vw unit</td><td class="cssvwunit"></td></tr>
+                                            <tr class="row"><td>CSS aspect-ratio</td><td class="aspectratio"></td></tr>
+                                            <tr class="row"><td>CSS Cubic Bezier Range</td><td class="cubicbezierrange"></td></tr>
+                                            <tr class="row"><td>CSS Variables (Custom Properties)</td><td class="customproperties"></td></tr>
+                                            <tr class="row"><td>CSS display: run-in</td><td class="display-runin"></td></tr>
+                                            <tr class="row"><td>CSS display: table</td><td class="displaytable"></td></tr>
+                                            <tr class="row"><td>CSS text-overflow ellipsis</td><td class="ellipsis"></td></tr>
+                                            <tr class="row"><td>CSS.escape()</td><td class="cssescape"></td></tr>
+                                            <tr class="row"><td>CSS Font ex Units</td><td class="cssexunit"></td></tr>
+                                            <tr class="row"><td>CSS Filters</td><td class="cssfilters"></td></tr>
+                                            <tr class="row"><td>CSS @font-face</td><td class="fontface"></td></tr>
+                                            <tr class="row"><td>Flexbox</td><td class="flexbox"></td></tr>
+                                            <tr class="row"><td>Flexbox (legacy)</td><td class="flexboxlegacy"></td></tr>
+                                            <tr class="row"><td>Flexbox (tweener)</td><td class="flexboxtweener"></td></tr>
+                                            <tr class="row"><td>Flex Gap</td><td class="flexgap"></td></tr>
+                                            <tr class="row"><td>Flex Line Wrapping</td><td class="flexwrap"></td></tr>
+                                            <tr class="row"><td>CSS :focus-within pseudo-selector</td><td class="focusvisible"></td></tr>
+                                            <tr class="row"><td>CSS :focus-within pseudo-selector</td><td class="focuswithin"></td></tr>
+                                            <tr class="row"><td>CSS font-display</td><td class="fontdisplay"></td></tr>
+                                            <tr class="row"><td>CSS Generated Content (:before/:after)</td><td class="generatedcontent"></td></tr>
+                                            <tr class="row"><td>CSS Gradients</td><td class="cssgradients"></td></tr>
+                                            <tr class="row"><td>CSS HSLA Colors</td><td class="hsla"></td></tr>
+                                            <tr class="row"><td>CSS RGBA Colors</td><td class="rgba"></td></tr>
+                                            <tr class="row"><td>CSS :invalid pseudo-class</td><td class="cssinvalid"></td></tr>
+                                            <tr class="row"><td>CSS :last-child pseudo-selector</td><td class="lastchild"></td></tr>
+                                            <tr class="row"><td>CSS Mask</td><td class="cssmask"></td></tr>
+                                            <tr class="row"><td>CSS Media Queries</td><td class="mediaqueries"></td></tr>
+                                            <tr class="row"><td>CSS Hover Media Query</td><td class="hovermq"></td></tr>
+                                            <tr class="row"><td>CSS Pointer Media Query</td><td class="pointermq"></td></tr>
+                                            <tr class="row"><td>CSS Multiple Backgrounds</td><td class="multiplebgs"></td></tr>
+                                            <tr class="row"><td>CSS :nth-child pseudo-selector</td><td class="nthchild"></td></tr>
+                                            <tr class="row"><td>CSS Object Fit</td><td class="objectfit"></td></tr>
+                                            <tr class="row"><td>CSS opacity</td><td class="opacity"></td></tr>
+                                            <tr class="row"><td>CSS Pointer Events</td><td class="csspointerevents"></td></tr>
+                                            <tr class="row"><td>CSS position: sticky</td><td class="csspositionsticky"></td></tr>
+                                            <tr class="row"><td>CSS Reflections</td><td class="cssreflections"></td></tr>
+                                            <tr class="row"><td>CSS Regions</td><td class="regions"></td></tr>
+                                            <tr class="row"><td>CSS Font rem Units</td><td class="cssremunit"></td></tr>
+                                            <tr class="row"><td>CSS resize</td><td class="cssresize"></td></tr>
+                                            <tr class="row"><td>CSS Styleable Scrollbars</td><td class="cssscrollbar"></td></tr>
+                                            <tr class="row"><td>CSS Scroll Snap Points</td><td class="scrollsnappoints"></td></tr>
+                                            <tr class="row"><td>CSS Shapes</td><td class="shapes"></td></tr>
+                                            <tr class="row"><td>CSS general sibling selector</td><td class="siblinggeneral"></td></tr>
+                                            <tr class="row"><td>CSS Subpixel Fonts</td><td class="subpixelfont"></td></tr>
+                                            <tr class="row"><td>CSS @supports</td><td class="supports"></td></tr>
+                                            <tr class="row"><td>CSS :target pseudo-class</td><td class="target"></td></tr>
+                                            <tr class="row"><td>CSS text-align-last</td><td class="textalignlast"></td></tr>
+                                            <tr class="row"><td>CSS text-decoration</td><td class="textdecoration"></td></tr>
+                                            <tr class="row"><td>CSS text-decoration-line</td><td class="textdecoration_line"></td></tr>
+                                            <tr class="row"><td>CSS text-decoration-style</td><td class="textdecoration_style"></td></tr>
+                                            <tr class="row"><td>CSS text-decoration-color</td><td class="textdecoration_color"></td></tr>
+                                            <tr class="row"><td>CSS text-decoration-skip</td><td class="textdecoration_skip"></td></tr>
+                                            <tr class="row"><td>CSS text-decoration-skip-ink</td><td class="textdecoration_skipink"></td></tr>
+                                            <tr class="row"><td>CSS text-shadow</td><td class="textshadow"></td></tr>
+                                            <tr class="row"><td>CSS Transforms</td><td class="csstransforms"></td></tr>
+                                            <tr class="row"><td>CSS Transforms 3D</td><td class="csstransforms3d"></td></tr>
+                                            <tr class="row"><td>CSS Transforms Level 2</td><td class="csstransformslevel2"></td></tr>
+                                            <tr class="row"><td>CSS Transform Style preserve-3d</td><td class="preserve3d"></td></tr>
+                                            <tr class="row"><td>CSS Transitions</td><td class="csstransitions"></td></tr>
+                                            <tr class="row"><td>CSS user-select</td><td class="userselect"></td></tr>
+                                            <tr class="row"><td>CSS :valid pseudo-class</td><td class="cssvalid"></td></tr>
+                                            <tr class="row"><td>CSS font-variation-settings</td><td class="variablefonts"></td></tr>
+                                            <tr class="row"><td>CSS vh unit</td><td class="cssvhunit"></td></tr>
+                                            <tr class="row"><td>CSS vmax unit</td><td class="cssvmaxunit"></td></tr>
+                                            <tr class="row"><td>CSS vmin unit</td><td class="cssvminunit"></td></tr>
+                                            <tr class="row"><td>CSS will-change</td><td class="willchange"></td></tr>
+                                            <tr class="row"><td>CSS Exclusions wrap-flow</td><td class="wrapflow"></td></tr>
+                                            <tr class="row"><td>CSS HiDPI/Retina Hairlines</td><td class="hairline"></td></tr>
+                                            <tr class="row"><td>CSS Generated Content Animations</td><td class="csspseudoanimations"></td></tr>
+                                            <tr class="row"><td>CSS Generated Content Transitions</td><td class="csspseudotransitions"></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="table-outer">
+                                <h3>Graphics Features Detection</h3>
+                                <div class="table-inner">
+                                    <table data-type="Graphics">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature Description</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="row"><td>Canvas</td><td class="canvas"></td></tr>
+                                            <tr class="row"><td>Canvas Text</td><td class="canvastext"></td></tr>
+                                            <tr class="row"><td>Emoji</td><td class="emoji"></td></tr>
+                                            <tr class="row"><td>Canvas.toDataURL image/jpeg</td><td class="todataurljpeg"></td></tr>
+                                            <tr class="row"><td>Canvas.toDataURL image/png</td><td class="todataurlpng"></td></tr>
+                                            <tr class="row"><td>Canvas.toDataURL image/webp</td><td class="todataurlwebp"></td></tr>
+                                            <tr class="row"><td>Canvas Blending Support</td><td class="canvasblending"></td></tr>
+                                            <tr class="row"><td>Canvas Winding Support</td><td class="canvaswinding"></td></tr>
+                                            <tr class="row"><td>SVG</td><td class="svg"></td></tr>
+                                            <tr class="row"><td>Inline SVG</td><td class="inlinesvg"></td></tr>
+                                            <tr class="row"><td>SVG as an IMG tag source</td><td class="svgasimg"></td></tr>
+                                            <tr class="row"><td>SVG CSS clip-path</td><td class="svgclippaths"></td></tr>
+                                            <tr class="row"><td>SVG SMIL animation</td><td class="smil"></td></tr>
+                                            <tr class="row"><td>SVG foreignObject</td><td class="svgforeignobject"></td></tr>
+                                            <tr class="row"><td>SVG Filters</td><td class="svgfilters"></td></tr>
+                                            <tr class="row"><td>Image crossOrigin</td><td class="imgcrossorigin"></td></tr>
+                                            <tr class="row"><td>Lazy loading via attribute for images & iframes</td><td class="lazyloading"></td></tr>
+                                            <tr class="row"><td>IMG srcset attribute</td><td class="srcset"></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="table-outer">
+                                <h3>Storage Features Detection</h3>
+                                <div class="table-inner">
+                                    <table data-type="Storage">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature Description</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="row"><td>Cookie</td><td class="cookies"></td></tr>
+                                            <tr class="row"><td>Web Storage API localStorage</td><td class="localstorage"></td></tr>
+                                            <tr class="row"><td>Quota Storage Management API</td><td class="quotamanagement"></td></tr>
+                                            <tr class="row"><td>Web Storage API sessionStorage</td><td class="sessionstorage"></td></tr>
+                                            <tr class="row"><td>IE User Data API</td><td class="userdata"></td></tr>
+                                            <tr class="row"><td>Web SQL Database</td><td class="websqldatabase"></td></tr>
+                                            <tr class="row"><td>Application Cache</td><td class="applicationcache"></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="table-outer">
+                                <h3>ECMAScript Features Detection</h3>
+                                <div class="table-inner">
+                                    <table data-type="ECMAScript">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature Description</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="row"><td>ES5</td><td class="es5"></td></tr>
+                                            <tr class="row"><td>ES5 Syntax</td><td class="es5syntax"></td></tr>
+                                            <tr class="row"><td>ES5 Immutable Undefined</td><td class="es5undefined"></td></tr>
+                                            <tr class="row"><td>ES5 Strict Mode</td><td class="strictmode"></td></tr>
+                                            <tr class="row"><td>ES5 Array</td><td class="es5array"></td></tr>
+                                            <tr class="row"><td>ES5 Date</td><td class="es5date"></td></tr>
+                                            <tr class="row"><td>ES5 Function</td><td class="es5function"></td></tr>
+                                            <tr class="row"><td>ES5 Object</td><td class="es5object"></td></tr>
+                                            <tr class="row"><td>ES5 String</td><td class="es5string"></td></tr>
+                                            <tr class="row"><td>ES6 Array</td><td class="es6array"></td></tr>
+                                            <tr class="row"><td>ES6 Arrow Functions</td><td class="arrow"></td></tr>
+                                            <tr class="row"><td>ES6 Collections</td><td class="es6collections"></td></tr>
+                                            <tr class="row"><td>ES6 Generators</td><td class="generators"></td></tr>
+                                            <tr class="row"><td>ES6 Math</td><td class="es6math"></td></tr>
+                                            <tr class="row"><td>ES6 Numbers</td><td class="es6number"></td></tr>
+                                            <tr class="row"><td>ES6 Object</td><td class="es6object"></td></tr>
+                                            <tr class="row"><td>ES6 Promises</td><td class="promises"></td></tr>
+                                            <tr class="row"><td>ES6 Rest parameters</td><td class="restparameters"></td></tr>
+                                            <tr class="row"><td>ES6 Spread array</td><td class="spreadarray"></td></tr>
+                                            <tr class="row"><td>ES6 Template Strings</td><td class="stringtemplate"></td></tr>
+                                            <tr class="row"><td>ES6 String</td><td class="es6string"></td></tr>
+                                            <tr class="row"><td>Typed Arrays</td><td class="typedarrays"></td></tr>
+                                            <tr class="row"><td>ES7 Array</td><td class="es7array"></td></tr>
+                                            <tr class="row"><td>ES7 Rest destructuring: Rest in arrays</td><td class="restdestructuringarray"></td></tr>
+                                            <tr class="row"><td>ES7 Rest destructuring: Rest in objects</td><td class="restdestructuringobject"></td></tr>
+                                            <tr class="row"><td>ES7 Spread object</td><td class="spreadobject"></td></tr>
+                                            <tr class="row"><td>ES8 Object</td><td class="es8object"></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="table-outer">
+                                <h3>Network Features Detection</h3>
+                                <div class="table-inner">
+                                    <table data-type="Network">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature Description</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="row"><td>WebSockets</td><td class="websockets"></td></tr>
+                                            <tr class="row"><td>WebSockets Binary</td><td class="websocketsbinary"></td></tr>
+                                            <tr class="row"><td>WebRTC Data Channel</td><td class="datachannel"></td></tr>
+                                            <tr class="row"><td>WebRTC getUserMedia</td><td class="getusermedia"></td></tr>
+                                            <tr class="row"><td>WebRTC MediaStream Recording API</td><td class="mediastream"></td></tr>
+                                            <tr class="row"><td>WebRTC Peer Connections</td><td class="peerconnection"></td></tr>
+                                            <tr class="row"><td>XHR responseType arraybuffer</td><td class="xhrresponsetypearraybuffer"></td></tr>
+                                            <tr class="row"><td>XHR responseType blob</td><td class="xhrresponsetypeblob"></td></tr>
+                                            <tr class="row"><td>XHR responseType document</td><td class="xhrresponsetypedocument"></td></tr>
+                                            <tr class="row"><td>XHR responseType json</td><td class="xhrresponsetypejson"></td></tr>
+                                            <tr class="row"><td>XHR responseType text</td><td class="xhrresponsetypetext"></td></tr>
+                                            <tr class="row"><td>XHR responseType</td><td class="xhrresponsetype"></td></tr>
+                                            <tr class="row"><td>XHR2 XMLHTTPRequest Level 2</td><td class="xhr2"></td></tr>
+                                            <tr class="row"><td>Connection Effective Type</td><td class="effectivetype"></td></tr>
+                                            <tr class="row"><td>Low Bandwidth Connection</td><td class="lowbandwidth"></td></tr>
+                                            <tr class="row"><td>Server Sent Events</td><td class="eventsource"></td></tr>
+                                            <tr class="row"><td>Fetch API</td><td class="fetch"></td></tr>
+                                            <tr class="row"><td>Beacon API</td><td class="beacon"></td></tr>
+                                            <tr class="row"><td>ServiceWorker API</td><td class="serviceworker"></td></tr>
+                                            <tr class="row"><td>XDomainRequest API</td><td class="xdomainrequest"></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="table-outer">
+                                <h3>Miscellaneous</h3>
+                                <div class="table-inner">
+                                    <table data-type="Miscellaneous">
+                                        <thead>
+                                            <tr>
+                                                <th>Feature Description</th>
+                                                <th>Test Result</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="row"><td>Geolocation API</td><td class="geolocation"></td></tr>
+                                            <tr class="row"><td>a[download] Attribute</td><td class="adownload"></td></tr>
+                                            <tr class="row"><td>a[ping] Attribute</td><td class="aping"></td></tr>
+                                            <tr class="row"><td>area[ping] Attribute</td><td class="areaping"></td></tr>
+                                            <tr class="row"><td>Battery API</td><td class="batteryapi"></td></tr>
+                                            <tr class="row"><td>Low Battery Level</td><td class="lowbattery"></td></tr>
+                                            <tr class="row"><td>Blob Constructor</td><td class="blobconstructor"></td></tr>
+                                            <tr class="row"><td>Content Editable</td><td class="contenteditable"></td></tr>
+                                            <tr class="row"><td>Context menus</td><td class="contextmenu"></td></tr>
+                                            <tr class="row"><td>Cross-Origin Resource Sharing</td><td class="cors"></td></tr>
+                                            <tr class="row"><td>Custom Protocol Handler</td><td class="customprotocolhandler"></td></tr>
+                                            <tr class="row"><td>DataView</td><td class="dataview"></td></tr>
+                                            <tr class="row"><td>CustomEvent</td><td class="customevent"></td></tr>
+                                            <tr class="row"><td>addEventListener</td><td class="eventlistener"></td></tr>
+                                            <tr class="row"><td>Force Touch Events</td><td class="forcetouch"></td></tr>
+                                            <tr class="row"><td>hashchange Event</td><td class="hashchange"></td></tr>
+                                            <tr class="row"><td>Device Motion Event</td><td class="devicemotion"></td></tr>
+                                            <tr class="row"><td>Device Orientation Event</td><td class="deviceorientation"></td></tr>
+                                            <tr class="row"><td>onInput Event</td><td class="oninput"></td></tr>
+                                            <tr class="row"><td>DOM Pointer Events API</td><td class="pointerevents"></td></tr>
+                                            <tr class="row"><td>File API</td><td class="filereader"></td></tr>
+                                            <tr class="row"><td>Filesystem API</td><td class="filesystem"></td></tr>
+                                            <tr class="row"><td>Fullscreen API</td><td class="fullscreen"></td></tr>
+                                            <tr class="row"><td>GamePad API</td><td class="gamepads"></td></tr>
+                                            <tr class="row"><td>IE8 compat mode</td><td class="ie8compat"></td></tr>
+                                            <tr class="row"><td>iframe[sandbox] Attribute</td><td class="sandbox"></td></tr>
+                                            <tr class="row"><td>iframe[seamless] Attribute</td><td class="seamless"></td></tr>
+                                            <tr class="row"><td>iframe[srcdoc] Attribute</td><td class="srcdoc"></td></tr>
+                                            <tr class="row"><td>Native JSON Parsing</td><td class="json"></td></tr>
+                                            <tr class="row"><td>Reverse Ordered Lists</td><td class="olreversed"></td></tr>
+                                            <tr class="row"><td>MathML</td><td class="mathml"></td></tr>
+                                            <tr class="row"><td>Notifications API</td><td class="notification"></td></tr>
+                                            <tr class="row"><td>Navigation Timing API</td><td class="performance"></td></tr>
+                                            <tr class="row"><td>Pointer Lock API</td><td class="pointerlock"></td></tr>
+                                            <tr class="row"><td>requestAnimationFrame</td><td class="requestanimationframe"></td></tr>
+                                            <tr class="row"><td>script async</td><td class="scriptasync"></td></tr>
+                                            <tr class="row"><td>script defer</td><td class="scriptdefer"></td></tr>
+                                            <tr class="row"><td>DOM style[scoped]</td><td class="stylescoped"></td></tr>
+                                            <tr class="row"><td>Unicode Range</td><td class="unicoderange"></td></tr>
+                                            <tr class="row"><td>Blob URLs</td><td class="bloburls"></td></tr>
+                                            <tr class="row"><td>URL parser</td><td class="urlparser"></td></tr>
+                                            <tr class="row"><td>URLSearchParams</td><td class="urlsearchparams"></td></tr>
+                                            <tr class="row"><td>Web Intents</td><td class="webintents"></td></tr>
+                                            <tr class="row"><td>Framed Window</td><td class="framed"></td></tr>
+                                            <tr class="row"><td>Ambient Light Events</td><td class="ambientlight"></td></tr>
+                                            <tr class="row"><td>Base 64 encoding/decoding</td><td class="atobbtoa"></td></tr>
+                                            <tr class="row"><td>Web Cryptography API</td><td class="crypto"></td></tr>
+                                            <tr class="row"><td>Web Cryptography API getRandomValues</td><td class="getrandomvalues"></td></tr>
+                                            <tr class="row"><td>Dart</td><td class="dart"></td></tr>
+                                            <tr class="row"><td>Internationalization API</td><td class="intl"></td></tr>
+                                            <tr class="row"><td>Font Ligatures </td><td class="ligatures"></td></tr>
+                                            <tr class="row"><td>Page Visibility API</td><td class="pagevisibility"></td></tr>
+                                            <tr class="row"><td>VML</td><td class="vml"></td></tr>
+                                            <tr class="row"><td>Custom Elements API</td><td class="customelements"></td></tr>
+                                            <tr class="row"><td>Media Source Extensions API</td><td class="mediasource"></td></tr>
+                                            <tr class="row"><td>Channel Messaging API</td><td class="messagechannel"></td></tr>
+                                            <tr class="row"><td>Proxy Object</td><td class="proxy"></td></tr>
+                                            <tr class="row"><td>Web Authentication PublicKeyCredential</td><td class="publickeycredential"></td></tr>
+                                            <tr class="row"><td>TextEncoder</td><td class="textencoder"></td></tr>
+                                            <tr class="row"><td>TextDecoder</td><td class="textdecoder"></td></tr>
+                                            <tr class="row"><td>Link rel=prefetch</td><td class="prefetch"></td></tr>
+                                            <tr class="row"><td>XDomainRequest API</td><td class="xdomainrequest"></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mod-intro">
+                        <div class="hd">
+                            <h3 class="title">Who It’s For</h3>
+                        </div>
+                        <div class="bd">
+                            <ul>
+                                <li><strong>Developers:</strong> Validate that your website or app works across browsers by identifying unsupported features early in the development process.</li>
+                                <li><strong>Privacy Advocates:</strong> Understand how browser features contribute to your online fingerprint—adjust settings to limit tracking without sacrificing functionality.</li>
+                                <li><strong>Tech Enthusiasts:</strong> Explore the full potential of your browser, compare performance across Chrome, Firefox, Safari, and Edge, or test experimental features.</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <footer class="footer">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5322941251486103" crossorigin="anonymous"></script>
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-5322941251486103"
+                    data-ad-slot="5046709200"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                <div class="mod-foot">
+                    <div class="inner">
+                        <div class="bd">
+                            <p>
+                                <span>&copy; 2025</span>
+                                <a href="/">browseris.com</a>
+                                <span>. All rights reserved</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="./static/script/modernizr.js"></script>
+        <script type="text/javascript" src="./static/script/features.js"></script>
+        <script type="text/javascript" src="./static/script/stat.js"></script>
+    </body>
+</html>

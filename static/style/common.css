@@ -14,6 +14,9 @@ a:hover{
 img{
     vertical-align: middle;
 }
+header{
+    margin-bottom: 20px;
+}
 .container{
     margin-bottom: 80px;
 }
@@ -144,7 +147,7 @@ img{
     
     .mod-head .bd{
         position: relative;
-        padding: 5px 0;
+        padding: 5px 0 0;
         flex-direction: column;
     }
     .mod-head .logo{
@@ -164,7 +167,7 @@ img{
         flex: 1;
     }
     .mod-head menu li a{
-        padding: 0 12px;
+        padding: 0 5px;
         font-size: 14px;
     }
     .mod-head .buttons{

@@ -1,3 +1,7 @@
+header{
+    margin-bottom: 0;
+}
+
 .mod-detail{
     margin-bottom: 25px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -99,6 +103,7 @@
 }
 
 .mod-intro{
+    margin-bottom: 20px;
     padding: 20px;
     background: #f9fafb;
     border: 1px solid #e8e8e8;
