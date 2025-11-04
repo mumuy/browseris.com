@@ -130,6 +130,10 @@ header{
     opacity: .02;
 }
 
+ins{
+    margin-bottom: 20px;
+}
+
 .mod-foot{
     background: #182432;
 }
