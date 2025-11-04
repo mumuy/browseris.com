@@ -134,6 +134,42 @@ ins{
     margin-bottom: 20px;
 }
 
+.mod-fixedbar .bd {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+}
+.mod-fixedbar .bd li{
+    margin-bottom: 2px;
+}
+.mod-fixedbar .bd a{
+    position: relative;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: rgba(255,255,255,0.8);
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    line-height: 48px;
+    text-align: center;
+}
+.mod-fixedbar .bd .popup{
+    display: none;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    z-index: 99;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.05);
+}
+.mod-fixedbar .bd a:hover{
+    background: rgba(255,255,255,0.9);
+}
+.mod-fixedbar .bd a:hover .popup{
+    display: block;
+}
+
 .mod-foot{
     background: #182432;
 }
@@ -178,5 +214,19 @@ ins{
         position: absolute;
         top: 5px;
         right: 0;
+    }
+
+    .mod-fixedbar .bd{
+        right: 5px;
+        bottom: 5px;
+    }
+    .mod-fixedbar .bd a{
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+    .mod-fixedbar .bd a img{
+        width: 20px;
+        height: 20px;
     }
 }
