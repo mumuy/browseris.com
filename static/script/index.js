@@ -182,6 +182,10 @@ let formatPanel = function(info){
                 <td class="th"><span>Support WebGL</span></td>
                 <td><span>${browser.isSupport('webgl')?'<span class="text-green">✔</span>':'<span class="text-red">✘</span>'}</span></td>
             </tr>
+            <tr>
+                <td class="th"><span>Support NFC</span></td>
+                <td><span>${browser.isSupport('nfc')?'<span class="text-green">✔</span>':'<span class="text-red">✘</span>'}</span></td>
+            </tr>
         </tbody>
     </table>`;
     $systemDetails.innerHTML = `<table>
